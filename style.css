@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------temporary styles for structural html------- */ 
+
+*{
+
+    padding: 0.5rem;
+    border: 2px solid rgb(225,225,225);
+}
+
+body { border: none; }
+html { border: none; }
+
+/* Image Stlyes */ 
+.bg-image {
+    background-image: url( /images/thesleepco1.jpg)
+    background-size:cover;
+    min-height: 10rem; 
+}
+
+/* ---------temporary styles for structural html------- */ 
+
+.padded    { padding: 5%; }
+.padded-sm { padding: 1rem; }
+
+.bg-fark {
+    background-color: #192B37;
+    color: white
+}
