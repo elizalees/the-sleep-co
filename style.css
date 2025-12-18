@@ -16,7 +16,7 @@ body {
 
 /* Image Styles */ 
 .bg-image {
-    background-image: url('/images/thesleepco1.jpg')
+    background-image: url('/images/thesleepco1.jpeg');
     background-size: cover;
     min-height:10rem; 
 }
@@ -26,6 +26,9 @@ body {
 .padded    { padding: 5%; }
 .padded-sm { padding: 1rem; }
 .padded-lg {padding: 10%; }
+.padding-left-8 { padding-left: 8rem; }
+
+.margin-bottom-2 { margin-bottom: 2rem;}
 
 .bg-dark {
     background-color: #192B37;
@@ -37,19 +40,19 @@ body {
 .text-center {text-align: center; }
 .text-right  {text-align: right; }
 
-.tall-50 { min-height: 50 vh; }
-.tall-60 { min-height: 60 vh; }
-.tall-70 { min-height: 70 vh; }
-.tall-80 { min-height: 80 vh; }
-.tall-90 {min-height: 90 vh; }
-.tall-100 { min-height: 100 vh; }
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 {min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
 
 /* Typography Stles */
 
 h2 {
-    font-size: 2.5 rem; 
+    font-size: 2.5rem; 
     line-height: 1.1; 
-    margin-bottom: 1 rem; 
+    margin-bottom: 1rem; 
 }
 
 h3 {
@@ -59,7 +62,7 @@ h3 {
 p {
     font-weight: 200;
    line-height: 1.5;
-   margin-bottom: 1 rem; 
+   margin-bottom: 1rem; 
 }
 
 a {
@@ -68,48 +71,48 @@ a {
     border-bottom: 1px solid;
 }
 
-a hover { color: #FFBE00 }
+a:hover { color: #FFBE00 }
+
+.text-align-center { text-align: center;} 
 
 .featured-text { color: #FFBE00 }
 .white-text { color: #FFFF }
 
-.small-text  { font-size: 1.5 rem; }
+.small-text  { font-size: 1.5rem; }
 .medium-text { 
-    font-size: 2.2 rem;
+    font-size: 2.2rem;
     line-height: 1.1;
 }
 
-.big-text    { font-size: 4.5 rem; }
+.big-text    { font-size: 4.5rem; }
 
 .subtitle { 
-    font-size: 1.2 rem;
+    font-size: 1.2rem;
     color: rgb (120,120,125);
 }
 
 .quote-icon {
-    font-size: 6 rem;
+    font-size: 6rem;
     display: inline-block;
-     color: rgb (120,120,125);
-     line-height: 1;
+    color: rgb (120,120,125);
+    line-height: 1;
 }
 
-.font-weight-light      { font-weight: light; }
-.font-weight-normal     { font-weight: normal; }
-.font-weight-extra-bold {font-weight: extra-bold;}
+.font-weight-light      { font-weight: 200; }
+.font-weight-normal     { font-weight: 400; }
+.font-weight-extra-bold {font-weight: 600;}
 
-plast-child; 
-margin-bottom: 0;
 
 /* Header & Footer styles */ 
 
 header {
-    background-image: url('/images/thesleepco1.jpg');
+    background-image: url('/images/thesleepco4.jpg');
     background-size: cover;
     background-position: center;
 }
 
 header h3 {
-    font-size: 5.5 rem; 
+    font-size: 5.5rem; 
     line-height: 1;
 }
 
@@ -119,19 +122,19 @@ footer a {
 
 /* Background Images */ 
 
-.bg-bed {background-image: url('/images/thesleepco2.jpg'); }
+.bg-bed {background-image: url('/images/thesleepco2.jpeg'); }
 .bg-pug { 
     background-image: url('/images/thesleepco4.jpg');
     background-position: 50% 35%; 
 }
 .bg-pillow {
-     background-image: url('/images/thesleepco5.jpeg');
+     background-image: url('/images/thesleepco5.jpg');
      background-position: 50% 57%;
 }
     /* Icon Grid */ 
+
     .fas {
-        display: block;
         text-align: center;
-        margin-bottom: 2 rem;
-        font-size: 3 rem; 
+        margin-bottom: 2rem;
+        font-size: 3rem; 
     }
